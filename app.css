@@ -2,6 +2,8 @@ body{
     background: hsl(233, 47%, 7%);
     font-size: 15px;
     color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
+
 }
 
 .attribution{ 
@@ -16,18 +18,26 @@ body{
 
 #card{
     margin: auto;
-    max-width: 1000px;
     background: hsl(244, 38%, 16%);
     
 }
 
-h2{
-    color: hsl(0, 0%, 100%)
+h2, h4{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
 }
 
 .statheadings{
     color: hsla(0, 0%, 100%, 0.6);
     text-transform: uppercase;
     font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
+.highlight{
+    color:hsl(277, 64%, 61%);
+}
+
+#cardtxt{
+    padding: 0 5%;
+}
