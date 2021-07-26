@@ -7,8 +7,6 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
@@ -18,36 +16,32 @@
 </head>
 
 <body>
-  <div id="card" class="container rounded">
-    <div class="row flex-lg-row-reverse align-items-center">
-      <div class="col-12 col-lg-6">
-        <img class="d-lg-none d-inline" src="images/image-header-mobile.jpg" aria-hidden="true">
-        <img class="d-none d-lg-inline float-end" src="images/image-header-desktop.jpg" aria-hidden="true">
-      </div>
-      <div class="col-12 col-lg-6" id="cardtxt">
-        <h2>Get <span class="highlight">insights</span> that help your business grow.</h2>
-        <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer
-          experience, and overall efficiency.</p>
-        <div class="row">
-          <div class="col-12 col-lg-4">
-            <h4>10k+</h4> <span class="statheadings">companies</span>
-          </div>
-          <div class="col-12 col-lg-4">
-            <h4>314</h4> <span class="statheadings">templates</span>
-          </div>
-          <div class="col-12 col-lg-4">
-            <h4>12M+</h4> <span class="statheadings">queries</span>
-          </div>
+  <div id="card">
+    <div class="imgs">
+      <img src="images/image-header-mobile.jpg" class="img-mobile" aria-hidden="true">
+    </div>
+    <div class="cardtxt">
+      <h2>Get <span class="highlight">insights</span> that help your business grow.</h2>
+      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and
+        overall efficiency.</p>
+      <div class="stats">
+        <div class="stat">
+          <h4>10k+</h4> <span class="statheadings">compagnies</span>
+        </div>
+        <div class="stat">
+          <h4>314</h4> <span class="statheadings">templates</span>
+        </div>
+        <div class="stat">
+          <h4>12M+</h4> <span class="statheadings">queries</span>
         </div>
       </div>
     </div>
   </div>
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="http://www.erebiel.ca">erebiel</a>.
   </div>
-
-
 </body>
 
 </html>
