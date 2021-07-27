@@ -31,11 +31,11 @@ body{
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     width: 100%;
-
 }
 
 .overlay{
     background: hsla(277, 64%, 61%, 1);
+}
 
 .cardtxt{
     margin: 0 25px;
