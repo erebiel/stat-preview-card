@@ -28,6 +28,7 @@ Users should be able to:
 
 ### Links
 
+- Solution URL: [https://practical-shockley-647fb3.netlify.app/](https://practical-shockley-647fb3.netlify.app/)
 - Live Site URL: [https://erebiel.ca/stat-preview-card/](https://erebiel.ca/stat-preview-card/)
 
 ## My process
